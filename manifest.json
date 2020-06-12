@@ -1,14 +1,15 @@
 {
-  "manifest_version": 1,
-  "name": "Turnip Extension Filter",
-  "version": "0.1",
+  "manifest_version": 2,
+  "name": "AC Turnip Exchange Filter",
+  "version": "0.2",
   "icons": {
     "16": "icon.png",
     "48": "icon.png",
     "128": "icon.png"
   },
   "permissions": [
-    "tabs"
+    "tabs",
+    "https://turnip.exchange/"
   ],
   "browser_action": {
     "default_icon": "icon.png",
